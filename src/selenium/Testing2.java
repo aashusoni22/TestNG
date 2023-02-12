@@ -12,5 +12,10 @@ public class Testing2 {
 	public void test4() {
 		System.out.println("Test4");
 	}
+	
+	@Test(groups="sanity")
+	public void testa() {
+		System.out.println("Testa");
+	}
 
 }
